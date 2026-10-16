@@ -1,0 +1,5 @@
+.DS_Store
+wallet.key
+mining.key
+wallet.contracts.json
+*.secret

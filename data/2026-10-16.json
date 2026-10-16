@@ -1,0 +1,180 @@
+{
+  "report_date": "2026-10-16",
+  "period_start_utc": "2026-08-21T16:00:00Z",
+  "unit": "micronoid",
+  "micronoid_per_noid": 1000000,
+  "snapshot": {
+    "sampled_utc": "2026-10-16T14:15:24.234269+00:00",
+    "height": 225881,
+    "block_hash": "75d3af2e229659c308214b982eabbbbf92b955202783b0f0d8c54fc2b3c23523",
+    "state_root": "47e79350f7865ee5433f12cf7507741e519f4e30eb7c578545f53af79a52fb05"
+  },
+  "protocol_receipts": {
+    "original_schedule": {
+      "first_payout_height": 4320,
+      "last_payout_height": 207360,
+      "payout_interval_blocks": 4320,
+      "payout_count": 48,
+      "reward_log_slots_at_all_payouts": 24,
+      "subsidy_per_block_micronoid": 50000000,
+      "payout_each_micronoid": 10800000000,
+      "received_each_micronoid": 518400000000
+    },
+    "v2_schedule": {
+      "first_payout_height": 213416,
+      "last_payout_height": 224936,
+      "payout_interval_blocks": 2880,
+      "payout_count": 5,
+      "subsidy_per_block_micronoid": 16000000,
+      "payout_each_micronoid": 2304000000,
+      "received_each_micronoid": 11520000000
+    },
+    "allocation_end_height": 3223778
+  },
+  "funds": {
+    "network": {
+      "name": "O(1) Network Fund",
+      "allocation_address": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+      "protocol_received_micronoid": 529920000000,
+      "available_micronoid": 17269844800,
+      "voluntarily_locked_micronoid": 500000000000,
+      "total_balance_micronoid": 517269844800,
+      "spent_micronoid": 12650155200,
+      "live_slots_at_allocation_address": 4
+    },
+    "lab": {
+      "name": "Parano1d Lab",
+      "allocation_address": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+      "protocol_received_micronoid": 529920000000,
+      "available_micronoid": 17292270909,
+      "voluntarily_locked_micronoid": 500000000000,
+      "total_balance_micronoid": 517292270909,
+      "spent_micronoid": 12627729091,
+      "live_slots_at_allocation_address": 1
+    }
+  },
+  "spending": {
+    "early_bug_bounties_and_network_fees_micronoid": 25277859991,
+    "bounty_budget_share_percent": {
+      "network": 50,
+      "lab": 50
+    },
+    "combined_cost_rounded_noid": 25278,
+    "equal_share_rounded_noid": 12639,
+    "vault_funding_fees_micronoid": 18000,
+    "consolidation_fees_micronoid": 6300,
+    "total_spent_micronoid": 25277884291
+  },
+  "totals": {
+    "protocol_received_micronoid": 1059840000000,
+    "available_micronoid": 34562115709,
+    "voluntarily_locked_micronoid": 1000000000000,
+    "balance_total_micronoid": 1034562115709,
+    "spent_micronoid": 25277884291
+  },
+  "locks": {
+    "status": "funded",
+    "type": "voluntary_timelock",
+    "funding_source": "already_paid_protocol_rewards",
+    "changes_protocol_payout_schedule": false,
+    "unlock_height": 490000,
+    "block_target_seconds": 30,
+    "estimated_unlock_utc": "2027-01-16T07:14:54+00:00",
+    "estimated_from_height": 225881,
+    "amount_each_micronoid": 500000000000,
+    "amount_total_micronoid": 1000000000000,
+    "contracts": {
+      "network": {
+        "contract_file": "proofs/2026-10/network-fund-vault.json",
+        "sha256": "ddb2e973a1bc6ae4ce79249681b30a0a5f1df5b87a5ddd493fda0db65617fae3",
+        "vault_address": "o1rv9yev2ugpqq5r56rnrwhrrlpquqc2a0x3pxwul5tla3ws053ekqy39ngw",
+        "owner_address": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+        "withdrawal_recipient": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+        "amount_micronoid": 500000000000,
+        "unlock_height": 490000,
+        "withdrawal_fee_ceiling_micronoid": 1000000,
+        "funding_txid": "6fa202221f596acde23544c1809f81eee3fed7ea86d2670666c7954c8369b73f",
+        "funding_height": 225854,
+        "funding_block_hash": "ede713e2df42bc64b56ce9640360ab46ca14517b5b93c1b99cdbb11439c1689b",
+        "funding_fee_micronoid": 9000,
+        "confirmations_at_snapshot": 28,
+        "live_slot_index": 630259,
+        "live_creation_id": 580723,
+        "matches_native_timelocked_vault": true,
+        "receipt_verification": {
+          "merkle_valid": true,
+          "canonical": true,
+          "confirmed": true
+        },
+        "permissions": {
+          "claim_can_continue": false,
+          "claim_can_close": false,
+          "recovery_can_continue": false,
+          "recovery_can_close": true
+        }
+      },
+      "lab": {
+        "contract_file": "proofs/2026-10/lab-fund-vault.json",
+        "sha256": "5db34460052649b6efdf0544e96ad5b8a449266335b6679868a256e0b228b9ec",
+        "vault_address": "o1m0p7jue04wjwp0qq2psnrctuyr4etv5gjlyz9v8cv2m2tyd62dgqllv4q3",
+        "owner_address": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+        "withdrawal_recipient": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+        "amount_micronoid": 500000000000,
+        "unlock_height": 490000,
+        "withdrawal_fee_ceiling_micronoid": 1000000,
+        "funding_txid": "6428879dfbfb645e213737d44b5944779bf7e37c840c5901d2823b337725f31d",
+        "funding_height": 225859,
+        "funding_block_hash": "17b41f3a6ff4a130535a740b93f5a3f39558b9465873cdb3f7d3adc5926ae939",
+        "funding_fee_micronoid": 9000,
+        "confirmations_at_snapshot": 23,
+        "live_slot_index": 604218,
+        "live_creation_id": 580737,
+        "matches_native_timelocked_vault": true,
+        "receipt_verification": {
+          "merkle_valid": true,
+          "canonical": true,
+          "confirmed": true
+        },
+        "permissions": {
+          "claim_can_continue": false,
+          "claim_can_close": false,
+          "recovery_can_continue": false,
+          "recovery_can_close": true
+        }
+      }
+    }
+  },
+  "wallet_operations": [
+    {
+      "fund": "lab",
+      "operation": "consolidation",
+      "height": 225868,
+      "block_hash": "2383fd2f0e01d54534952694196ddd0affb2a7172aeab1758a97d23288cafecf",
+      "txid": "efb78512865cd94fd665ce39b83d40070cf2e1f28eb50a0bb717af880550be61",
+      "input_owner": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+      "input_count": 6,
+      "output_count": 1,
+      "input_sum_micronoid": 17292277209,
+      "output_sum_micronoid": 17292270909,
+      "fee_micronoid": 6300
+    }
+  ],
+  "before_voluntary_locks": {
+    "snapshot": {
+      "sampled_utc": "2026-10-16T12:03:42.348118+00:00",
+      "height": 225616,
+      "block_hash": "279de37bcd8c1c97b8dfa3c352bbcd51a16cdc8a4453059a2e59211bca5a71f5",
+      "state_root": "0809d06a9c1589a0dbf490c2a535728d40f5e9e8e7a00ea1a7a1d083efe73233"
+    },
+    "balance_at_allocation_address_micronoid": {
+      "network": 517269853800,
+      "lab": 517292286209
+    },
+    "total_spent_micronoid": 25277859991
+  },
+  "verification": {
+    "mainnet_genesis_hash": "860e70453390bf815718e933aa4927167a13d098b0151391eefd722ee1add610",
+    "nodes_checked": 2,
+    "minimum_funding_confirmations": 19
+  }
+}
