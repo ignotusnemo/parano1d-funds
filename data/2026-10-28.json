@@ -1,0 +1,739 @@
+{
+  "report_date": "2026-10-28",
+  "period_start_utc": "2026-10-16T14:15:24.234269+00:00",
+  "period_start_height_exclusive": 225881,
+  "previous_report": "reports/2026-10-16.md",
+  "unit": "micronoid",
+  "micronoid_per_noid": 1000000,
+  "snapshot": {
+    "sampled_utc": "2026-10-28T09:19:16.498140+00:00",
+    "height": 259831,
+    "block_hash": "b550de659f289bc94d06a0ad0ff4534a81e5409ff22bf4e93bdd27581efd5c1a",
+    "state_root": "c374f116f303f1f069fafd7bc4edb6893386bb52daf0bb99b33b36654b6ad6be",
+    "header_timestamp_utc": "2026-10-28T09:18:34+00:00",
+    "source_sampling_started_utc": "2026-10-28T09:19:15.608478+00:00",
+    "source_sampling_completed_utc": "2026-10-28T09:21:48.302191+00:00"
+  },
+  "protocol_receipts": {
+    "original_schedule": {
+      "first_payout_height": 4320,
+      "last_payout_height": 207360,
+      "payout_interval_blocks": 4320,
+      "payout_count": 48,
+      "reward_log_slots_at_all_payouts": 24,
+      "subsidy_per_block_micronoid": 50000000,
+      "payout_each_micronoid": 10800000000,
+      "received_each_micronoid": 518400000000
+    },
+    "v2_schedule": {
+      "first_payout_height": 213416,
+      "last_payout_height": 259496,
+      "payout_interval_blocks": 2880,
+      "payout_count": 17,
+      "subsidy_per_block_micronoid": 16000000,
+      "payout_each_micronoid": 2304000000,
+      "received_each_micronoid": 39168000000
+    },
+    "allocation_end_height": 3223778,
+    "during_report_period": {
+      "first_payout_height": 227816,
+      "last_payout_height": 259496,
+      "payout_interval_blocks": 2880,
+      "payout_count": 12,
+      "payout_each_micronoid": 2304000000,
+      "received_each_micronoid": 27648000000
+    }
+  },
+  "funds": {
+    "network": {
+      "name": "O(1) Network Fund",
+      "allocation_address": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+      "protocol_received_micronoid": 557568000000,
+      "received_during_period_micronoid": 27648000000,
+      "opening_available_micronoid": 17269844800,
+      "opening_total_balance_micronoid": 517269844800,
+      "available_micronoid": 19590566800,
+      "voluntarily_locked_micronoid": 500000000000,
+      "total_balance_micronoid": 519590566800,
+      "spent_during_period_micronoid": 25327278000,
+      "transaction_fees_during_period_micronoid": 67000,
+      "spent_micronoid": 37977433200,
+      "live_slots_at_allocation_address": 9
+    },
+    "lab": {
+      "name": "Parano1d Lab",
+      "allocation_address": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+      "protocol_received_micronoid": 557568000000,
+      "received_during_period_micronoid": 27648000000,
+      "opening_available_micronoid": 17292270909,
+      "opening_total_balance_micronoid": 517292270909,
+      "available_micronoid": 19640255009,
+      "voluntarily_locked_micronoid": 500000000000,
+      "total_balance_micronoid": 519640255009,
+      "spent_during_period_micronoid": 25300015900,
+      "transaction_fees_during_period_micronoid": 15900,
+      "spent_micronoid": 37927744991,
+      "live_slots_at_allocation_address": 9
+    }
+  },
+  "spending": {
+    "infrastructure_reimbursement_micronoid": 25000010000,
+    "researcher_compensation_micronoid": 25000000000,
+    "donations_micronoid": 600000000,
+    "testing_costs_micronoid": 27201000,
+    "transaction_fees_micronoid": 82900,
+    "total_spent_micronoid": 50627293900,
+    "purpose_source": "Fund administrator statement",
+    "future_infrastructure_support": "A small monthly amount from the Network Fund will be used for ongoing infrastructure support."
+  },
+  "totals": {
+    "protocol_received_micronoid": 1115136000000,
+    "received_during_period_micronoid": 55296000000,
+    "opening_total_balance_micronoid": 1034562115709,
+    "available_micronoid": 39230821809,
+    "voluntarily_locked_micronoid": 1000000000000,
+    "total_balance_micronoid": 1039230821809,
+    "spent_during_period_micronoid": 50627293900,
+    "spent_micronoid": 75905178191
+  },
+  "transactions": [
+    {
+      "fund": "network",
+      "purpose": "Consolidation",
+      "height": 226263,
+      "block_hash": "266c08a3069b421ccbce06d0148d67f8b6a8a3698ab7fe1d55f9a83190eda3b6",
+      "timestamp_utc": "2026-10-16T17:25:20+00:00",
+      "txid": "0574cc7379522128b007f268de0762f09c864974d0cdb8774149f7e2dc078763",
+      "input_owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+      "input_count": 4,
+      "output_count": 1,
+      "input_sum_micronoid": 17269844800,
+      "output_sum_micronoid": 17269838700,
+      "external_outputs": [],
+      "amount_micronoid": 0,
+      "fee_micronoid": 6100,
+      "total_debit_micronoid": 6100,
+      "canonical": true,
+      "explorer_url": "https://noidexplorer.org/tx/0574cc7379522128b007f268de0762f09c864974d0cdb8774149f7e2dc078763",
+      "api_url": "https://noidexplorer.org/api/v1/tx/0574cc7379522128b007f268de0762f09c864974d0cdb8774149f7e2dc078763"
+    },
+    {
+      "fund": "network",
+      "purpose": "Testing costs",
+      "height": 226716,
+      "block_hash": "03b9470e2a4c75363498794418992d0dc399c3fc5f20b6929c42dd2731ab79bf",
+      "timestamp_utc": "2026-10-16T21:12:39+00:00",
+      "txid": "20f54d167e9867ceadcba429c904e4346d0d09b817603279b6adf8a90f1c809b",
+      "input_owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+      "input_count": 1,
+      "output_count": 2,
+      "input_sum_micronoid": 17269838700,
+      "output_sum_micronoid": 17269829700,
+      "external_outputs": [
+        {
+          "address": "o1vgw6dd657vhnt58sc0wedfs9z4unel0l4yeda7tup0lajcpm377qskqjvd",
+          "amount_micronoid": 1000
+        }
+      ],
+      "amount_micronoid": 1000,
+      "fee_micronoid": 9000,
+      "total_debit_micronoid": 10000,
+      "canonical": true,
+      "explorer_url": "https://noidexplorer.org/tx/20f54d167e9867ceadcba429c904e4346d0d09b817603279b6adf8a90f1c809b",
+      "api_url": "https://noidexplorer.org/api/v1/tx/20f54d167e9867ceadcba429c904e4346d0d09b817603279b6adf8a90f1c809b"
+    },
+    {
+      "fund": "network",
+      "purpose": "Testing costs",
+      "height": 228695,
+      "block_hash": "b4c8ae971c431ffbc862a97f0c89f8bae772637709cd908de0a49b7821bfacad",
+      "timestamp_utc": "2026-10-17T14:07:54+00:00",
+      "txid": "346b8f06d6da9c7f0306cb1d6ebaeeb6d6f2f09e3477b7dcfd07abfc0b17a4ef",
+      "input_owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+      "input_count": 1,
+      "output_count": 2,
+      "input_sum_micronoid": 17269828700,
+      "output_sum_micronoid": 17269819700,
+      "external_outputs": [
+        {
+          "address": "o1nprjmnfv7urfcjntsrxwxa3vnc70evpn3uqn2jtuxnys42qwr2vqzxed3w",
+          "amount_micronoid": 100000
+        }
+      ],
+      "amount_micronoid": 100000,
+      "fee_micronoid": 9000,
+      "total_debit_micronoid": 109000,
+      "canonical": true,
+      "explorer_url": "https://noidexplorer.org/tx/346b8f06d6da9c7f0306cb1d6ebaeeb6d6f2f09e3477b7dcfd07abfc0b17a4ef",
+      "api_url": "https://noidexplorer.org/api/v1/tx/346b8f06d6da9c7f0306cb1d6ebaeeb6d6f2f09e3477b7dcfd07abfc0b17a4ef"
+    },
+    {
+      "fund": "network",
+      "purpose": "Testing costs",
+      "height": 228696,
+      "block_hash": "74243e5911a7ed15144cbe6eeb2774598e86afb89f854f69dc3c0560b8661352",
+      "timestamp_utc": "2026-10-17T14:08:21+00:00",
+      "txid": "f668e6c0e0bb516e455d06a3b8b79e028a9e85b373c1b55c1d57cafa280e723f",
+      "input_owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+      "input_count": 1,
+      "output_count": 2,
+      "input_sum_micronoid": 2304000000,
+      "output_sum_micronoid": 2303991000,
+      "external_outputs": [
+        {
+          "address": "o1k0wfvneq9yaqnz4h6cce9x0qfcvmv7kcsrle8ey33me06evp73es7qvpfh",
+          "amount_micronoid": 25000000
+        }
+      ],
+      "amount_micronoid": 25000000,
+      "fee_micronoid": 9000,
+      "total_debit_micronoid": 25009000,
+      "canonical": true,
+      "explorer_url": "https://noidexplorer.org/tx/f668e6c0e0bb516e455d06a3b8b79e028a9e85b373c1b55c1d57cafa280e723f",
+      "api_url": "https://noidexplorer.org/api/v1/tx/f668e6c0e0bb516e455d06a3b8b79e028a9e85b373c1b55c1d57cafa280e723f"
+    },
+    {
+      "fund": "network",
+      "purpose": "Testing costs",
+      "height": 228704,
+      "block_hash": "836afb41211eb0b145fcf30a3942b10d281f29baaab501164e476de6161d88b1",
+      "timestamp_utc": "2026-10-17T14:14:52+00:00",
+      "txid": "5e686533d9b17a9913d9dd1a9228b9ee4777608a7a5c7f11152739c064bb5169",
+      "input_owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+      "input_count": 1,
+      "output_count": 2,
+      "input_sum_micronoid": 17269719700,
+      "output_sum_micronoid": 17269710700,
+      "external_outputs": [
+        {
+          "address": "o1nprjmnfv7urfcjntsrxwxa3vnc70evpn3uqn2jtuxnys42qwr2vqzxed3w",
+          "amount_micronoid": 1100000
+        }
+      ],
+      "amount_micronoid": 1100000,
+      "fee_micronoid": 9000,
+      "total_debit_micronoid": 1109000,
+      "canonical": true,
+      "explorer_url": "https://noidexplorer.org/tx/5e686533d9b17a9913d9dd1a9228b9ee4777608a7a5c7f11152739c064bb5169",
+      "api_url": "https://noidexplorer.org/api/v1/tx/5e686533d9b17a9913d9dd1a9228b9ee4777608a7a5c7f11152739c064bb5169"
+    },
+    {
+      "fund": "network",
+      "purpose": "Testing costs",
+      "height": 228815,
+      "block_hash": "afa8504776e1fb817a883c0eed3853a5af00fcb17dc44532ef4dd37896bf8342",
+      "timestamp_utc": "2026-10-17T15:08:51+00:00",
+      "txid": "c86d4c021f7355c669cc3d980b70ed55d33bea2cd2aee743ebe05a2a2cbb4721",
+      "input_owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+      "input_count": 1,
+      "output_count": 2,
+      "input_sum_micronoid": 17268610700,
+      "output_sum_micronoid": 17268601700,
+      "external_outputs": [
+        {
+          "address": "o1v9utvns69p08e2g532uf8l2eshk72nkxs0ahsd67cz8muqu4hkks2nwu5g",
+          "amount_micronoid": 1000000
+        }
+      ],
+      "amount_micronoid": 1000000,
+      "fee_micronoid": 9000,
+      "total_debit_micronoid": 1009000,
+      "canonical": true,
+      "explorer_url": "https://noidexplorer.org/tx/c86d4c021f7355c669cc3d980b70ed55d33bea2cd2aee743ebe05a2a2cbb4721",
+      "api_url": "https://noidexplorer.org/api/v1/tx/c86d4c021f7355c669cc3d980b70ed55d33bea2cd2aee743ebe05a2a2cbb4721"
+    },
+    {
+      "fund": "network",
+      "purpose": "Infrastructure reimbursement",
+      "height": 237831,
+      "block_hash": "21527ff335de0c2dc386acfb9200133335c9483d7de1686217d89a668eeee4bc",
+      "timestamp_utc": "2026-10-20T18:04:14+00:00",
+      "txid": "2a141fcf19c1607412aaa8987075dcce3d30ade29b388a6fbb9815be8a8ab6ff",
+      "input_owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+      "input_count": 5,
+      "output_count": 2,
+      "input_sum_micronoid": 26458592700,
+      "output_sum_micronoid": 26458585800,
+      "external_outputs": [
+        {
+          "address": "o1nvuhke6h8fe65w5rd89ee8kvr9aal5wg03avx2ddqmdpvjlxhsusn4l96z",
+          "amount_micronoid": 25000010000
+        }
+      ],
+      "amount_micronoid": 25000010000,
+      "fee_micronoid": 6900,
+      "total_debit_micronoid": 25000016900,
+      "canonical": true,
+      "explorer_url": "https://noidexplorer.org/tx/2a141fcf19c1607412aaa8987075dcce3d30ade29b388a6fbb9815be8a8ab6ff",
+      "api_url": "https://noidexplorer.org/api/v1/tx/2a141fcf19c1607412aaa8987075dcce3d30ade29b388a6fbb9815be8a8ab6ff"
+    },
+    {
+      "fund": "lab",
+      "purpose": "Researcher compensation",
+      "height": 237939,
+      "block_hash": "7057f1c23104a6a1699ebbaa8cae2c7382a893c98723fe4c3748153d1ca10c1c",
+      "timestamp_utc": "2026-10-20T18:53:29+00:00",
+      "txid": "d621268c4c92798bca95b6604fa9c5da1532664a6f3fcdd7225f4722372f1464",
+      "input_owner": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+      "input_count": 5,
+      "output_count": 2,
+      "input_sum_micronoid": 26508270909,
+      "output_sum_micronoid": 26508264009,
+      "external_outputs": [
+        {
+          "address": "o1l6l9fcmacsg8032nsgf46f4xw4dhuhamewwhjxn4rk69ya4zw92q3pvnl3",
+          "amount_micronoid": 25000000000
+        }
+      ],
+      "amount_micronoid": 25000000000,
+      "fee_micronoid": 6900,
+      "total_debit_micronoid": 25000006900,
+      "canonical": true,
+      "explorer_url": "https://noidexplorer.org/tx/d621268c4c92798bca95b6604fa9c5da1532664a6f3fcdd7225f4722372f1464",
+      "api_url": "https://noidexplorer.org/api/v1/tx/d621268c4c92798bca95b6604fa9c5da1532664a6f3fcdd7225f4722372f1464"
+    },
+    {
+      "fund": "network",
+      "purpose": "Donations",
+      "height": 238093,
+      "block_hash": "ef91a383e360be9951c338399aa10217ec753ab11ae7ad212cbae73f35172cb5",
+      "timestamp_utc": "2026-10-20T20:11:57+00:00",
+      "txid": "bd1c757d249b85d332af2b9a51dc29198b6101bcf9e10871e9376584be338e1b",
+      "input_owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+      "input_count": 1,
+      "output_count": 2,
+      "input_sum_micronoid": 1458575800,
+      "output_sum_micronoid": 1458566800,
+      "external_outputs": [
+        {
+          "address": "o168vjtarlyjxegufnamxt4mpeg04kt9wj7utus5yq6jkx23uu3kmspp4guq",
+          "amount_micronoid": 300000000
+        }
+      ],
+      "amount_micronoid": 300000000,
+      "fee_micronoid": 9000,
+      "total_debit_micronoid": 300009000,
+      "canonical": true,
+      "explorer_url": "https://noidexplorer.org/tx/bd1c757d249b85d332af2b9a51dc29198b6101bcf9e10871e9376584be338e1b",
+      "api_url": "https://noidexplorer.org/api/v1/tx/bd1c757d249b85d332af2b9a51dc29198b6101bcf9e10871e9376584be338e1b"
+    },
+    {
+      "fund": "lab",
+      "purpose": "Donations",
+      "height": 238105,
+      "block_hash": "2d8a38e29a9f8254dbf2330010627e2b4abc395272fc821833272a2f4f296160",
+      "timestamp_utc": "2026-10-20T20:17:19+00:00",
+      "txid": "bfa5350b3918ba42bc124a98463c040b82d3d71a1f7eed72d6638afaa8c52552",
+      "input_owner": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+      "input_count": 1,
+      "output_count": 2,
+      "input_sum_micronoid": 1508264009,
+      "output_sum_micronoid": 1508255009,
+      "external_outputs": [
+        {
+          "address": "o168vjtarlyjxegufnamxt4mpeg04kt9wj7utus5yq6jkx23uu3kmspp4guq",
+          "amount_micronoid": 300000000
+        }
+      ],
+      "amount_micronoid": 300000000,
+      "fee_micronoid": 9000,
+      "total_debit_micronoid": 300009000,
+      "canonical": true,
+      "explorer_url": "https://noidexplorer.org/tx/bfa5350b3918ba42bc124a98463c040b82d3d71a1f7eed72d6638afaa8c52552",
+      "api_url": "https://noidexplorer.org/api/v1/tx/bfa5350b3918ba42bc124a98463c040b82d3d71a1f7eed72d6638afaa8c52552"
+    }
+  ],
+  "protocol_payout_transactions": [
+    {
+      "height": 227816,
+      "block_hash": "951d72310d9709a31af67411f21f5c034bf429f3bb8cea4fb802a4937d3e73c1",
+      "txid": "3b94b7befe28e51aed8bb8403a55ddc2465ac7d58aee69a131d1c47c919d6da9",
+      "amount_each_micronoid": 2304000000,
+      "explorer_url": "https://noidexplorer.org/tx/3b94b7befe28e51aed8bb8403a55ddc2465ac7d58aee69a131d1c47c919d6da9",
+      "api_url": "https://noidexplorer.org/api/v1/tx/3b94b7befe28e51aed8bb8403a55ddc2465ac7d58aee69a131d1c47c919d6da9"
+    },
+    {
+      "height": 230696,
+      "block_hash": "6ab8ae638b02dd7f296a97e5f54e4ec6a66372a22b62652b0d8e6fe29b88c9fc",
+      "txid": "6e81ab8c9993c8a9c30cbb0003388e82f5cbef83aad74c702b7fb69462c1e554",
+      "amount_each_micronoid": 2304000000,
+      "explorer_url": "https://noidexplorer.org/tx/6e81ab8c9993c8a9c30cbb0003388e82f5cbef83aad74c702b7fb69462c1e554",
+      "api_url": "https://noidexplorer.org/api/v1/tx/6e81ab8c9993c8a9c30cbb0003388e82f5cbef83aad74c702b7fb69462c1e554"
+    },
+    {
+      "height": 233576,
+      "block_hash": "27714fa4aac698d07a0eeccdafc7301f922d7ec2d4b6563a1e2d9bcace885fb4",
+      "txid": "7ce30c3ee7e16158c8827924a3c3256bbe79f431e782dc286ecaa489b1b89c8c",
+      "amount_each_micronoid": 2304000000,
+      "explorer_url": "https://noidexplorer.org/tx/7ce30c3ee7e16158c8827924a3c3256bbe79f431e782dc286ecaa489b1b89c8c",
+      "api_url": "https://noidexplorer.org/api/v1/tx/7ce30c3ee7e16158c8827924a3c3256bbe79f431e782dc286ecaa489b1b89c8c"
+    },
+    {
+      "height": 236456,
+      "block_hash": "ce6817d2ec4d19c82c88193367b9244746516ad4fe4e6cfe4e0f599efda7e27b",
+      "txid": "ffdbaaa9e799f253a47a1c69ba97f7ac61be2f46733fff3108ce455e4a8796b7",
+      "amount_each_micronoid": 2304000000,
+      "explorer_url": "https://noidexplorer.org/tx/ffdbaaa9e799f253a47a1c69ba97f7ac61be2f46733fff3108ce455e4a8796b7",
+      "api_url": "https://noidexplorer.org/api/v1/tx/ffdbaaa9e799f253a47a1c69ba97f7ac61be2f46733fff3108ce455e4a8796b7"
+    },
+    {
+      "height": 239336,
+      "block_hash": "9007708309a4c8e848cf84890cc6328c47d63278946792fb4a34e60dee95ffe4",
+      "txid": "d63d13589a9cb510d42533487540849267a198bf2d9fc16e2a728f30479b0be3",
+      "amount_each_micronoid": 2304000000,
+      "explorer_url": "https://noidexplorer.org/tx/d63d13589a9cb510d42533487540849267a198bf2d9fc16e2a728f30479b0be3",
+      "api_url": "https://noidexplorer.org/api/v1/tx/d63d13589a9cb510d42533487540849267a198bf2d9fc16e2a728f30479b0be3"
+    },
+    {
+      "height": 242216,
+      "block_hash": "5fac2e1d9ce102c67dea9c6e5cb03f74df6855b79e4342943cc5244944f6a647",
+      "txid": "ae5b840bcd05a6a9ccc3bc0abba1c6a07932a65f7c57af2319b3f6150b72b864",
+      "amount_each_micronoid": 2304000000,
+      "explorer_url": "https://noidexplorer.org/tx/ae5b840bcd05a6a9ccc3bc0abba1c6a07932a65f7c57af2319b3f6150b72b864",
+      "api_url": "https://noidexplorer.org/api/v1/tx/ae5b840bcd05a6a9ccc3bc0abba1c6a07932a65f7c57af2319b3f6150b72b864"
+    },
+    {
+      "height": 245096,
+      "block_hash": "b20f86a8233a979f46711b184b959aeea33440b085d77b2efd2067c752a41418",
+      "txid": "2b62fdc3c94fae7540e59c9d5db350333a0a5aee9295a712ad217ee2cd1e90d5",
+      "amount_each_micronoid": 2304000000,
+      "explorer_url": "https://noidexplorer.org/tx/2b62fdc3c94fae7540e59c9d5db350333a0a5aee9295a712ad217ee2cd1e90d5",
+      "api_url": "https://noidexplorer.org/api/v1/tx/2b62fdc3c94fae7540e59c9d5db350333a0a5aee9295a712ad217ee2cd1e90d5"
+    },
+    {
+      "height": 247976,
+      "block_hash": "101aba950719e94819ff91baa2fb059cfed289c669b28c3b2f5742b33c7d77cf",
+      "txid": "3d4658dd55efb46446ddbd47e31e5a10b9f5db481de527f158e4afe236ccf5f4",
+      "amount_each_micronoid": 2304000000,
+      "explorer_url": "https://noidexplorer.org/tx/3d4658dd55efb46446ddbd47e31e5a10b9f5db481de527f158e4afe236ccf5f4",
+      "api_url": "https://noidexplorer.org/api/v1/tx/3d4658dd55efb46446ddbd47e31e5a10b9f5db481de527f158e4afe236ccf5f4"
+    },
+    {
+      "height": 250856,
+      "block_hash": "37164c0ecc8797a54b5218d3d589bd13b3bd567d3c1261e6bf9439eb033b69d0",
+      "txid": "07806cfd7f567b9eecff258921572628bddd0404241cd8f653ec6cbd04ec9593",
+      "amount_each_micronoid": 2304000000,
+      "explorer_url": "https://noidexplorer.org/tx/07806cfd7f567b9eecff258921572628bddd0404241cd8f653ec6cbd04ec9593",
+      "api_url": "https://noidexplorer.org/api/v1/tx/07806cfd7f567b9eecff258921572628bddd0404241cd8f653ec6cbd04ec9593"
+    },
+    {
+      "height": 253736,
+      "block_hash": "1ddc422db20d5e2344610ec841afec45b6057449bc79d4a77f42ca81f45d6744",
+      "txid": "363a996406b8fc25ac08fe33e311e9af0b5c72eb52d27eb90b262063703ad531",
+      "amount_each_micronoid": 2304000000,
+      "explorer_url": "https://noidexplorer.org/tx/363a996406b8fc25ac08fe33e311e9af0b5c72eb52d27eb90b262063703ad531",
+      "api_url": "https://noidexplorer.org/api/v1/tx/363a996406b8fc25ac08fe33e311e9af0b5c72eb52d27eb90b262063703ad531"
+    },
+    {
+      "height": 256616,
+      "block_hash": "e8e0c61a595ba981e7d9b8136465c85be49f1e37098982dfd6eb7d3411283afe",
+      "txid": "2195afbd63f8f883ad29789c1012205cf71f31b7eadaf70f1349dcc9bf7f8c55",
+      "amount_each_micronoid": 2304000000,
+      "explorer_url": "https://noidexplorer.org/tx/2195afbd63f8f883ad29789c1012205cf71f31b7eadaf70f1349dcc9bf7f8c55",
+      "api_url": "https://noidexplorer.org/api/v1/tx/2195afbd63f8f883ad29789c1012205cf71f31b7eadaf70f1349dcc9bf7f8c55"
+    },
+    {
+      "height": 259496,
+      "block_hash": "ca84566a1c9917183402bf56f4f59d1bd456e7fff3f9e855ff56ecf280ceb66f",
+      "txid": "dc21de97792a54c006561f07eeb6ae5df7ec5d914862d2fe20358588fbc3a286",
+      "amount_each_micronoid": 2304000000,
+      "explorer_url": "https://noidexplorer.org/tx/dc21de97792a54c006561f07eeb6ae5df7ec5d914862d2fe20358588fbc3a286",
+      "api_url": "https://noidexplorer.org/api/v1/tx/dc21de97792a54c006561f07eeb6ae5df7ec5d914862d2fe20358588fbc3a286"
+    }
+  ],
+  "live_state_records": {
+    "network": {
+      "allocation_address": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+      "allocation_utxos": [
+        {
+          "slot_index": 615418,
+          "value": 2304000000,
+          "creation_id": 636963,
+          "owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+          "empty": false
+        },
+        {
+          "slot_index": 640515,
+          "value": 2304000000,
+          "creation_id": 668033,
+          "owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+          "empty": false
+        },
+        {
+          "slot_index": 644562,
+          "value": 2304000000,
+          "creation_id": 644877,
+          "owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+          "empty": false
+        },
+        {
+          "slot_index": 9412311,
+          "value": 2304000000,
+          "creation_id": 620960,
+          "owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+          "empty": false
+        },
+        {
+          "slot_index": 11232381,
+          "value": 2304000000,
+          "creation_id": 676220,
+          "owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+          "empty": false
+        },
+        {
+          "slot_index": 14665648,
+          "value": 2304000000,
+          "creation_id": 660255,
+          "owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+          "empty": false
+        },
+        {
+          "slot_index": 15241802,
+          "value": 2304000000,
+          "creation_id": 628828,
+          "owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+          "empty": false
+        },
+        {
+          "slot_index": 15254157,
+          "value": 2304000000,
+          "creation_id": 652418,
+          "owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+          "empty": false
+        },
+        {
+          "slot_index": 634173,
+          "value": 1158566800,
+          "creation_id": 617733,
+          "owner": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+          "empty": false
+        }
+      ],
+      "vault_address": "o1rv9yev2ugpqq5r56rnrwhrrlpquqc2a0x3pxwul5tla3ws053ekqy39ngw",
+      "vault_utxos": [
+        {
+          "slot_index": 630259,
+          "value": 500000000000,
+          "creation_id": 580723,
+          "owner": "o1rv9yev2ugpqq5r56rnrwhrrlpquqc2a0x3pxwul5tla3ws053ekqy39ngw",
+          "empty": false
+        }
+      ]
+    },
+    "lab": {
+      "allocation_address": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+      "allocation_utxos": [
+        {
+          "slot_index": 615419,
+          "value": 2304000000,
+          "creation_id": 636964,
+          "owner": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+          "empty": false
+        },
+        {
+          "slot_index": 640521,
+          "value": 2304000000,
+          "creation_id": 668034,
+          "owner": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+          "empty": false
+        },
+        {
+          "slot_index": 644570,
+          "value": 2304000000,
+          "creation_id": 644878,
+          "owner": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+          "empty": false
+        },
+        {
+          "slot_index": 9412312,
+          "value": 2304000000,
+          "creation_id": 620961,
+          "owner": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+          "empty": false
+        },
+        {
+          "slot_index": 11232382,
+          "value": 2304000000,
+          "creation_id": 676221,
+          "owner": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+          "empty": false
+        },
+        {
+          "slot_index": 14665649,
+          "value": 2304000000,
+          "creation_id": 660256,
+          "owner": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+          "empty": false
+        },
+        {
+          "slot_index": 15241803,
+          "value": 2304000000,
+          "creation_id": 628829,
+          "owner": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+          "empty": false
+        },
+        {
+          "slot_index": 15254158,
+          "value": 2304000000,
+          "creation_id": 652419,
+          "owner": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+          "empty": false
+        },
+        {
+          "slot_index": 606400,
+          "value": 1208255009,
+          "creation_id": 617786,
+          "owner": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+          "empty": false
+        }
+      ],
+      "vault_address": "o1m0p7jue04wjwp0qq2psnrctuyr4etv5gjlyz9v8cv2m2tyd62dgqllv4q3",
+      "vault_utxos": [
+        {
+          "slot_index": 604218,
+          "value": 500000000000,
+          "creation_id": 580737,
+          "owner": "o1m0p7jue04wjwp0qq2psnrctuyr4etv5gjlyz9v8cv2m2tyd62dgqllv4q3",
+          "empty": false
+        }
+      ]
+    }
+  },
+  "locks": {
+    "status": "funded",
+    "type": "voluntary_timelock",
+    "funding_source": "already_paid_protocol_rewards",
+    "changes_protocol_payout_schedule": false,
+    "unlock_height": 490000,
+    "block_target_seconds": 30,
+    "estimated_unlock_utc": "2027-01-16T07:23:04+00:00",
+    "estimated_from_height": 259831,
+    "amount_each_micronoid": 500000000000,
+    "amount_total_micronoid": 1000000000000,
+    "contracts": {
+      "network": {
+        "contract_file": "proofs/2026-10/network-fund-vault.json",
+        "sha256": "ddb2e973a1bc6ae4ce79249681b30a0a5f1df5b87a5ddd493fda0db65617fae3",
+        "vault_address": "o1rv9yev2ugpqq5r56rnrwhrrlpquqc2a0x3pxwul5tla3ws053ekqy39ngw",
+        "owner_address": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+        "withdrawal_recipient": "o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07",
+        "amount_micronoid": 500000000000,
+        "unlock_height": 490000,
+        "withdrawal_fee_ceiling_micronoid": 1000000,
+        "funding_txid": "6fa202221f596acde23544c1809f81eee3fed7ea86d2670666c7954c8369b73f",
+        "funding_height": 225854,
+        "funding_block_hash": "ede713e2df42bc64b56ce9640360ab46ca14517b5b93c1b99cdbb11439c1689b",
+        "funding_fee_micronoid": 9000,
+        "live_slot_index": 630259,
+        "live_creation_id": 580723,
+        "matches_native_timelocked_vault": true,
+        "receipt_verification": {
+        "source_report": "data/2026-10-16.json",
+        "source_snapshot_height": 225881,
+          "merkle_valid": true,
+          "canonical": true,
+          "confirmed": true
+        },
+        "permissions": {
+          "claim_can_continue": false,
+          "claim_can_close": false,
+          "recovery_can_continue": false,
+          "recovery_can_close": true
+        },
+        "current_live_value_micronoid": 500000000000,
+        "original_live_instance_unchanged": true
+      },
+      "lab": {
+        "contract_file": "proofs/2026-10/lab-fund-vault.json",
+        "sha256": "5db34460052649b6efdf0544e96ad5b8a449266335b6679868a256e0b228b9ec",
+        "vault_address": "o1m0p7jue04wjwp0qq2psnrctuyr4etv5gjlyz9v8cv2m2tyd62dgqllv4q3",
+        "owner_address": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+        "withdrawal_recipient": "o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple",
+        "amount_micronoid": 500000000000,
+        "unlock_height": 490000,
+        "withdrawal_fee_ceiling_micronoid": 1000000,
+        "funding_txid": "6428879dfbfb645e213737d44b5944779bf7e37c840c5901d2823b337725f31d",
+        "funding_height": 225859,
+        "funding_block_hash": "17b41f3a6ff4a130535a740b93f5a3f39558b9465873cdb3f7d3adc5926ae939",
+        "funding_fee_micronoid": 9000,
+        "live_slot_index": 604218,
+        "live_creation_id": 580737,
+        "matches_native_timelocked_vault": true,
+        "receipt_verification": {
+        "source_report": "data/2026-10-16.json",
+        "source_snapshot_height": 225881,
+          "merkle_valid": true,
+          "canonical": true,
+          "confirmed": true
+        },
+        "permissions": {
+          "claim_can_continue": false,
+          "claim_can_close": false,
+          "recovery_can_continue": false,
+          "recovery_can_close": true
+        },
+        "current_live_value_micronoid": 500000000000,
+        "original_live_instance_unchanged": true
+      }
+    },
+    "balances_rechecked": true
+  },
+  "verification": {
+    "mainnet_genesis_hash": "860e70453390bf815718e933aa4927167a13d098b0151391eefd722ee1add610",
+    "source": "NOID Explorer public API",
+    "source_base_url": "https://noidexplorer.org/api/v1",
+    "canonical_expense_transactions_checked": 10,
+    "canonical_payout_transactions_checked": 12,
+    "live_balance_addresses_checked": 4,
+    "balances_match_live_utxo_sums": true,
+    "opening_receipts_spending_and_closing_balances_reconcile": true,
+    "original_vault_instances_unchanged": true,
+    "original_contract_file_hashes_match": true
+  },
+  "sources": {
+    "stats": {
+      "url": "https://noidexplorer.org/api/v1/stats",
+      "sampled_utc": "2026-10-28T09:19:16.498140+00:00"
+    },
+    "network": {
+      "url": "https://noidexplorer.org/api/v1/address/o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07?page=1&page_size=100",
+      "sampled_utc": "2026-10-28T09:19:19.877796+00:00"
+    },
+    "lab": {
+      "url": "https://noidexplorer.org/api/v1/address/o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple?page=1&page_size=100",
+      "sampled_utc": "2026-10-28T09:19:17.619114+00:00"
+    },
+    "network-vault": {
+      "url": "https://noidexplorer.org/api/v1/address/o1rv9yev2ugpqq5r56rnrwhrrlpquqc2a0x3pxwul5tla3ws053ekqy39ngw?page=1&page_size=5",
+      "sampled_utc": "2026-10-28T09:19:17.557582+00:00"
+    },
+    "lab-vault": {
+      "url": "https://noidexplorer.org/api/v1/address/o1m0p7jue04wjwp0qq2psnrctuyr4etv5gjlyz9v8cv2m2tyd62dgqllv4q3?page=1&page_size=5",
+      "sampled_utc": "2026-10-28T09:19:15.608478+00:00"
+    },
+    "network-utxos": {
+      "url": "https://noidexplorer.org/api/v1/address/o1r3djxaz54k47kr54x76cwqkhl6xqucescv943m5m8uvc5w6x7euqct3h07/utxos",
+      "sampled_utc": "2026-10-28T09:21:48.302191+00:00"
+    },
+    "lab-utxos": {
+      "url": "https://noidexplorer.org/api/v1/address/o1xcjdp3udp5sgwcvnmjlu9s53u4fx5m3hpquvg0uem2pr2mrr9dqq38jple/utxos",
+      "sampled_utc": "2026-10-28T09:21:48.225431+00:00"
+    },
+    "network-vault-utxos": {
+      "url": "https://noidexplorer.org/api/v1/address/o1rv9yev2ugpqq5r56rnrwhrrlpquqc2a0x3pxwul5tla3ws053ekqy39ngw/utxos",
+      "sampled_utc": "2026-10-28T09:21:48.227597+00:00"
+    },
+    "lab-vault-utxos": {
+      "url": "https://noidexplorer.org/api/v1/address/o1m0p7jue04wjwp0qq2psnrctuyr4etv5gjlyz9v8cv2m2tyd62dgqllv4q3/utxos",
+      "sampled_utc": "2026-10-28T09:21:48.222441+00:00"
+    },
+    "snapshot-header": {
+      "url": "https://noidexplorer.org/api/v1/block/height/259831",
+      "sampled_utc": "2026-10-28T09:21:48.301473+00:00"
+    },
+    "genesis": {
+      "url": "https://noidexplorer.org/api/v1/block/height/0",
+      "sampled_utc": "2026-10-28T09:21:45.924411+00:00"
+    }
+  }
+}
