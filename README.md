@@ -48,3 +48,4 @@ Reports record protocol receipts, spending, fund balances and any active locks. 
 | --- | --- |
 | [16 October 2026](reports/2026-10-16.md) | Launch on 21 August through 16 October 2026 |
 | [28 October 2026](reports/2026-10-28.md) | 16–28 October 2026 |
+| [19 November 2026](reports/2026-11-19.md) | 28 October to 19 November 2026 |
